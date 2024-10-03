@@ -1,14 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  Card1Integration,
-  Card3Integration,
-  Card4Integration,
-  Card5Integration,
-  Card6Integration,
-  Card7Integration,
-} from "./cards/index.js";
-import { Card2Integration } from "./cards/Card2.jsx";
+import { CardsIntegration } from "./cards/index.js";
 
 export const AnnouncementSection = () => {
   return (
@@ -16,13 +8,7 @@ export const AnnouncementSection = () => {
       <div className="cards">
         <p>Here's what we announced</p>
       </div>
-      <Card1Integration />
-      <Card2Integration />
-      <Card3Integration />
-      <Card4Integration />
-      <Card5Integration />
-      <Card6Integration />
-      <Card7Integration />
+      <CardsIntegration />
     </Container>
   );
 };
