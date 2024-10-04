@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { CardsIntegration } from "./cards/index.js";
+import { products } from "../../data-list/index.js";
+import { ProductCard } from "./ProductCard.jsx";
 
 export const AnnouncementSection = () => {
   return (
@@ -8,7 +9,11 @@ export const AnnouncementSection = () => {
       <div className="cards">
         <p>Here's what we announced</p>
       </div>
-      <CardsIntegration />
+      <div className="products-wrapper">
+        {products.map((product, index) => (
+          <ProductCard key={index} product={product} />
+        ))}
+      </div>
     </Container>
   );
 };
@@ -28,5 +33,13 @@ const Container = styled.div`
     align-items: center;
     flex-direction: column;
     margin: 2em auto;
+  }
+
+  .products-wrapper {
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    gap: 0.6em;
   }
 `;
