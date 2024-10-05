@@ -21,18 +21,19 @@ export const AnnouncementSection = () => {
 const Container = styled.div`
   width: 100vw;
   height: auto;
-  background: white;
+  background: #f5f5f7;
   font-size: 2.5em;
   font-weight: 590;
   display: grid;
   gap: 1em;
+  padding: 1.5em;
 
   .cards {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 2em auto;
+    margin: 1.5em auto;
   }
 
   .products-wrapper {

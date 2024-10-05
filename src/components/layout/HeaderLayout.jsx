@@ -31,6 +31,7 @@ export const HeaderLayout = () => {
           style={{
             display: isVisible ? "flex" : "none",
             padding: isVisible ? "0.5em 0" : "0",
+            transition: isVisible ? "0.3s" : "",
           }}
         >
           <li>
@@ -91,17 +92,32 @@ export const HeaderLayout = () => {
 };
 
 const Container = styled.div`
-  width: 100%;
+  width: 100vw;
   height: auto;
   background: transparent;
   color: rgb(175, 175, 175);
   position: absolute;
   top: 0;
   z-index: 500;
+  margin: 0;
+  padding: 0;
 
   &.sticky {
     position: fixed;
-    transition: background 0.3s;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 0.81);
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #3d3d3d;
+
+    .wrapper {
+      .title {
+        p {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
   }
 
   .wrapper {
@@ -141,10 +157,9 @@ const Container = styled.div`
       margin: 0.8em 0;
       font-size: 1.3em;
       color: white;
-      border-bottom: 0.5px solid rgb(175, 175, 175);
 
       p {
-        padding: 0.5em 0;
+        padding: 0.3em 0;
       }
     }
   }
