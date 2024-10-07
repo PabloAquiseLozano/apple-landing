@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Noel } from "../../images/index.js";
 
 export const FooterLayout = () => {
   return (
@@ -22,9 +21,6 @@ export const FooterLayout = () => {
         <li>
           <a href="#">Site Map</a>
         </li>
-        <li>
-          <img src={Noel} alt="noel" />
-        </li>
       </ul>
     </Container>
   );
@@ -36,6 +32,7 @@ const Container = styled.div`
   background: #eee;
   color: #444;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1em;
   padding: 1em;

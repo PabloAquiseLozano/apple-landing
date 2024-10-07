@@ -35,8 +35,21 @@ const Container = styled.div`
     margin: 2em auto;
   }
   .events-wrapper {
-    width: 80%;
+    width: 90%;
     display: flex;
+    justify-content: center;
     gap: 2em;
+  }
+
+  @media (max-width: 786px) {
+    .title {
+      font-size: 1.5em;
+    }
+
+    .events-wrapper {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 `;
