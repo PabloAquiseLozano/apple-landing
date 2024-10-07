@@ -36,6 +36,7 @@ const Container = styled.div`
     justify-content: center;
 
     .img {
+      box-shadow: 0px 0px 32px 18px rgba(245, 245, 10, 1);
       overflow: hidden;
       border-radius: 20px;
       width: 100%;
