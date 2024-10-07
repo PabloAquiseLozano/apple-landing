@@ -143,7 +143,7 @@ const Container = styled.div`
   }
 
   .wrapper {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 
     ul {
@@ -187,9 +187,10 @@ const Container = styled.div`
     }
   }
 
-  @media (max-width: 691px) {
+  @media (max-width: 781px) {
     .wrapper {
       ul {
+        font-size: 1.8em;
         .button {
           display: none;
         }
