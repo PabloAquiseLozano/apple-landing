@@ -19,20 +19,22 @@ export const AnnouncementSection = () => {
 };
 
 const Container = styled.div`
+  background: #f5f5f7;
   width: 100vw;
   height: auto;
-  background: #f5f5f7;
-  font-size: 2.5em;
-  font-weight: 590;
-  display: grid;
-  gap: 1em;
-  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .cards {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    font-size: 2.5em;
     margin: 1.5em auto;
   }
 
@@ -42,5 +44,12 @@ const Container = styled.div`
     display: grid;
     place-items: center;
     gap: 0.6em;
+    margin: 1.5em auto;
+  }
+
+  @media (max-width: 786px) {
+    .cards {
+      font-size: 1.8em;
+    }
   }
 `;

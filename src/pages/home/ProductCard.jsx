@@ -20,12 +20,14 @@ export const ProductCard = ({ product }) => {
 };
 
 const Container = styled.div`
-  width: 25em;
-  height: 10em;
+  max-width: 20em;
+  min-height: 5em;
   display: flex;
   background: ${({ backgroundCard }) => backgroundCard};
   border-radius: 20px;
   overflow: hidden;
+  font-size: 2.5em;
+  margin: 0.1em 0.5em;
 
   .img {
     width: 80%;
@@ -73,6 +75,29 @@ const Container = styled.div`
       );
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
+    }
+  }
+
+  @media (max-width: 786px) {
+    max-width: 10em;
+    min-height: 5em;
+    display: flex;
+    flex-direction: column;
+
+    .img {
+      width: 100%;
+      height: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .description {
+      padding: 1.5em;
+      font-size: 0.4em;
+      text-align: center;
     }
   }
 `;

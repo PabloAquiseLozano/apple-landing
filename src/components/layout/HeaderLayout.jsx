@@ -40,37 +40,59 @@ export const HeaderLayout = () => {
             </a>
           </li>
           <li>
-            <a href="#">Store</a>
+            <a href="#" className="button">
+              Store
+            </a>
           </li>
           <li>
-            <a href="#">Mac</a>
+            <a href="#" className="button">
+              Mac
+            </a>
           </li>
           <li>
-            <a href="#">iPad</a>
+            <a href="#" className="button">
+              iPad
+            </a>
           </li>
           <li>
-            <a href="#">iPhone</a>
+            <a href="#" className="button">
+              iPhone
+            </a>
           </li>
           <li>
-            <a href="#">Watch</a>
+            <a href="#" className="button">
+              Watch
+            </a>
           </li>
           <li>
-            <a href="#">Vision</a>
+            <a href="#" className="button">
+              Vision
+            </a>
           </li>
           <li>
-            <a href="#">AirPods</a>
+            <a href="#" className="button">
+              AirPods
+            </a>
           </li>
           <li>
-            <a href="#">TV & Home</a>
+            <a href="#" className="button">
+              TV & Home
+            </a>
           </li>
           <li>
-            <a href="#">Entertainment</a>
+            <a href="#" className="button">
+              Entertainment
+            </a>
           </li>
           <li>
-            <a href="#">Accessories</a>
+            <a href="#" className="button">
+              Accessories
+            </a>
           </li>
           <li>
-            <a href="#">Support</a>
+            <a href="#" className="button">
+              Support
+            </a>
           </li>
           <li>
             <a href="#">
@@ -121,7 +143,7 @@ const Container = styled.div`
   }
 
   .wrapper {
-    width: 69%;
+    width: 90%;
     margin: 0 auto;
 
     ul {
@@ -131,6 +153,7 @@ const Container = styled.div`
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
 
       li {
         padding: 0.3em 0.5em;
@@ -160,6 +183,16 @@ const Container = styled.div`
 
       p {
         padding: 0.3em 0;
+      }
+    }
+  }
+
+  @media (max-width: 691px) {
+    .wrapper {
+      ul {
+        .button {
+          display: none;
+        }
       }
     }
   }
