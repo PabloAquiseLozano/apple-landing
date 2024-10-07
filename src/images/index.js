@@ -9,4 +9,4 @@ export { default as AirPodsMax } from "./airPodsMax.jpg";
 export { default as Apple1 } from "./Appleimg1.png";
 export { default as Apple2 } from "./Appleimg2.png";
 export { default as Apple3 } from "./Appleimg3.png";
-export { default as Noel } from "./noel.jpeg";
+export { default as Rita } from "./rita.jpeg";
