@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { products } from "../../data-list/index.js";
 import { ProductCard } from "./ProductCard.jsx";
+import { RitaCard } from "./RitaCard.jsx";
 
 export const AnnouncementSection = () => {
   return (
@@ -13,6 +14,9 @@ export const AnnouncementSection = () => {
         {products.map((product, index) => (
           <ProductCard key={index} product={product} />
         ))}
+      </div>
+      <div className="rita-wrapper">
+        <RitaCard />
       </div>
     </Container>
   );
@@ -47,9 +51,22 @@ const Container = styled.div`
     margin: 1.5em auto;
   }
 
+  .rita-wrapper {
+    display: none;
+  }
+
   @media (max-width: 786px) {
     .cards {
       font-size: 1.8em;
+    }
+
+    .rita-wrapper {
+      display: grid;
+      width: 100%;
+      height: auto;
+      place-items: center;
+      gap: 0.6em;
+      margin: 1.5em auto;
     }
   }
 `;

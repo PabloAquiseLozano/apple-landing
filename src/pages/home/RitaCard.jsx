@@ -1,5 +1,65 @@
 import React from "react";
+import styled from "styled-components";
+import { Rita } from "../../images/index.js";
 
 export const RitaCard = () => {
-  return <div></div>;
+  return (
+    <Container>
+      <div className="card">
+        <div className="img">
+          <img src={Rita} alt="" />
+        </div>
+        <div className="text">
+          <p>
+            "Las flores más hermosas del jardín son las que llevan la luz de su
+            sonrisa."
+          </p>
+        </div>
+      </div>
+    </Container>
+  );
 };
+
+const Container = styled.div`
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  position: relative;
+  .card {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    position: relative;
+    justify-content: center;
+    .img {
+      overflow: hidden;
+      border-radius: 20px;
+      width: 100%;
+      height: auto;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .text {
+      text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #49ff18,
+        0 0 30px #49ff18,
+        0 0 40px #49ff18,
+        0 0 55px #49ff18,
+        0 0 75px #49ff18,
+        0px 0px 4px rgba(245, 255, 13, 0.75);
+      padding: 0.5em;
+      position: absolute;
+      text-align: center;
+      font-weight: 600;
+      font-size: 2em;
+    }
+  }
+`;
