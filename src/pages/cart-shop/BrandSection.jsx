@@ -21,18 +21,23 @@ export const BrandSection = () => {
 const Container = styled.div`
   width: 100%;
   height: auto;
-  background: black;
+  background: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   .title-brands {
-    padding: 5em 3em;
+    padding: 5em;
+  }
+
+  .band-brands {
+    width: 100%;
+    max-width: 1300px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: white;
-  }
-  .band-brands {
-    padding: 2em;
-    background: white;
-    display: flex;
     gap: 1em;
+    padding: 1em;
+    flex-wrap: wrap;
   }
 `;

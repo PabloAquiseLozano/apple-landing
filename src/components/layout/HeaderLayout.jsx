@@ -36,9 +36,9 @@ export const HeaderLayout = () => {
           }}
         >
           <li>
-            <a href="#">
+            <Link to="/">
               <img src={AppleLogo} alt="web logo" className="logo" />
-            </a>
+            </Link>
           </li>
           <li>
             <a href="#" className="button">
