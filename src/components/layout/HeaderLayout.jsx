@@ -6,6 +6,7 @@ import {
   faBasketShopping,
   faMagnifyingGlass,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export const HeaderLayout = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -100,14 +101,16 @@ export const HeaderLayout = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <Link to="/cart">
               <FontAwesomeIcon icon={faBasketShopping} className="icon" />
-            </a>
+            </Link>
           </li>
         </ul>
-        <div className="title">
-          <p>Apple Events</p>
-        </div>
+        {window.location.pathname === "/" && (
+          <div className="title">
+            <p>Apple Events</p>
+          </div>
+        )}
       </div>
     </Container>
   );

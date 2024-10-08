@@ -13,7 +13,4 @@ export const BaseLayout = ({ children }) => {
   );
 };
 
-const Container = styled.div`
-  .main {
-  }
-`;
+const Container = styled.div``;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { Home } from "../pages";
+import { Cart, Home } from "../pages";
 import { BaseLayout } from "../components/layout/BaseLayout.jsx";
 
 export const Router = () => {
@@ -12,6 +12,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Home />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/cart"
+        element={
+          <BaseLayout>
+            <Cart />
           </BaseLayout>
         }
       />
