@@ -7,7 +7,7 @@ export const BrandSection = () => {
   return (
     <Container>
       <div className="title-brands">
-        <h1>Our Products</h1>
+        <h1>Nuestros Productos</h1>
       </div>
       <div className="band-brands">
         {phones.map((phone, index) => (
@@ -37,7 +37,7 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     gap: 1em;
-    padding: 1em;
+    padding-bottom: 1em;
     flex-wrap: wrap;
   }
 `;
