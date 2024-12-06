@@ -8,7 +8,7 @@ export const AnnouncementSection = () => {
   return (
     <Container>
       <div className="cards">
-        <p>Here's what we announced</p>
+        <p>Esto es lo que anunciamos</p>
       </div>
       <div className="products-wrapper">
         {products.map((product, index) => (

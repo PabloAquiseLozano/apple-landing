@@ -14,7 +14,7 @@ export const products = [
     title: "iPhone 16 Pro",
     subTitle: "Hello, Apple Intelligence",
     description:
-      "Hello, Apple Intelligence Built for Apple Intelligence — personal, private, powerful. Camera Control, an easier way to quickly access camera tools. Stunning 4K 120 fps Dolby Vision video. A18 Pro chip. And a huge leap in battery life.",
+      "Hola, Apple Intelligence: personal, privado y potente. Control de cámara: una forma más sencilla de acceder rápidamente a las herramientas de la cámara. Impresionante video Dolby Vision en 4K a 120 fps. Chip A18 Pro. Y un gran salto en la duración de la batería.",
     backgroundCard: "black",
     textColor: "white",
   },
@@ -23,7 +23,7 @@ export const products = [
     title: "iPhone 16",
     subTitle: "Hello, Apple Intelligence",
     description:
-      "Built for Apple Intelligence to help you write, express yourself, and get things done effortlessly. Camera Control, an easier way to quickly access camera tools. And the custom-built A18 chip.",
+      "Diseñado para ayudarte a escribir, expresarte y hacer las cosas sin esfuerzo. Control de cámara, una forma más sencilla de acceder rápidamente a las herramientas de la cámara. Y el chip A18 personalizado.",
     backgroundCard: "white",
     textColor: "black",
   },
@@ -31,7 +31,7 @@ export const products = [
     img: AppleWatch,
     title: "Apple Watch Series 10",
     description:
-      "Our thinnest watch with our biggest display. Invaluable health insights, including sleep apnea notifications. Tracking for your activity and workouts — with depth and water temperature. All in our fastest-charging watch ever.",
+      "Nuestro reloj más delgado con nuestra pantalla más grande. Información valiosa sobre la salud, incluidas notificaciones de apnea del sueño. Seguimiento de tu actividad y entrenamientos. Todo en nuestro reloj con la carga más rápida hasta el momento.",
     backgroundCard: "white",
     textColor: "black",
   },
@@ -39,7 +39,7 @@ export const products = [
     img: AppleWatchUltra,
     title: "Apple Watch Ultra 2",
     description:
-      "The ultimate sports and adventure watch features a stunning new black titanium case. With connectivity, health, and safety features for the everyday. And the most accurate GPS in a sports watch.",
+      "El reloj deportivo y de aventura definitivo cuenta con una nueva y sorprendente caja de titanio negro. Con funciones de conectividad, salud y seguridad para el día a día. Y el GPS más preciso en un reloj deportivo.",
     backgroundCard: "black",
     textColor: "white",
   },
@@ -47,7 +47,7 @@ export const products = [
     img: AirPods4,
     title: "AirPods 4",
     description:
-      "Updated fit for all-day comfort. A totally transformed audio experience. And available with Active Noise Cancellation — a first for this open-ear design.",
+      "Ajuste actualizado para una comodidad durante todo el día. Una experiencia de audio totalmente transformada. Y disponible con cancelación activa de ruido, una novedad para este diseño de oído abierto.",
     backgroundCard: "white",
     textColor: "black",
   },
@@ -55,7 +55,7 @@ export const products = [
     img: AirPodsPro2,
     title: "AirPods Pro 2",
     description:
-      "Coming this fall with a free software update, the world’s first all-in-one hearing health experience — test, aid, and help protect your hearing.",
+      "Este otoño, con una actualización de software gratuita, se presenta la primera experiencia de salud auditiva todo en uno del mundo: prueba, ayuda y protege tu audición.",
     backgroundCard: "black",
     textColor: "white",
   },
@@ -63,7 +63,7 @@ export const products = [
     img: AirPodsMax,
     title: "AirPods Max",
     description:
-      "The ultimate over-ear personal listening experience. Now in fresh new colors with fast and easy USB‑C charging.",
+      "La mejor experiencia auditiva personal con audífonos supraaurales. Ahora en nuevos colores y con carga rápida y sencilla mediante USB‑C.",
     backgroundCard: "white",
     textColor: "black",
   },

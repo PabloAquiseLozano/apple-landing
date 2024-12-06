@@ -7,7 +7,7 @@ export const EventsSection = () => {
   return (
     <Container>
       <div className="title">
-        <p>View Recent Apple Events</p>
+        <p>Ver eventos recientes de Apple</p>
       </div>
       <div className="events-wrapper">
         {events.map((event, index) => (

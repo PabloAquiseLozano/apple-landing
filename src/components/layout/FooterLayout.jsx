@@ -4,7 +4,9 @@ import styled from "styled-components";
 export const FooterLayout = () => {
   return (
     <Container>
-      <p>Copyright © 2024 Apple Inc. All rights reserved.</p>
+      <p>
+        Copyright © 2024 Apple Inc. <strong>Desarrollado por DevPool</strong>.
+      </p>
       <ul>
         <li>
           <a href="">Privacy Policy</a>

@@ -4,23 +4,23 @@ import dayjs from "dayjs";
 export const events = [
   {
     img: Apple1,
-    title: "WWDC",
-    date: dayjs("06-10-2024", "DD-MM-YYYY").format("MMM DD, YYYY"),
+    title: "Apple Intelligence",
+    date: dayjs("06-10-2024", "DD-MM-YYYY").format("MMMM DD, YYYY"),
     description:
-      "Introducing Apple Intelligence, AI for the rest of us. And exciting updates coming with iOS 18, iPadOS 18, macOS Sequoia, watchOS 11, and visionOS 2.",
+      "Presentamos Apple Intelligence, inteligencia artificial para el resto de nosotros. Y novedades interesantes que llegarán con iOS 18, iPadOS 18, macOS Sequoia, watchOS 11 y visionOS 2.",
   },
   {
     img: Apple2,
-    title: "Apple Event",
-    date: dayjs("05-07-2024", "DD-MM-YYYY").format("MMM DD, YYYY"),
+    title: "iPhone 15 Series",
+    date: dayjs("05-07-2024", "DD-MM-YYYY").format("MMMM DD, YYYY"),
     description:
-      "Introducing iPhone 15 Pro, iPhone 15, Apple Watch Series 9, Apple Watch Ultra 2, and a major step toward making all our products carbon neutral by 2030.",
+      "Presentamos el iPhone 15 Pro, el iPhone 15, el Apple Watch Series 9, el Apple Watch Ultra 2 y un gran paso hacia el objetivo de que todos nuestros productos sean carbono neutrales para 2030.",
   },
   {
     img: Apple3,
-    title: "Apple Event",
-    date: dayjs("08-30-2024", "DD-MM-YYYY").format("MMM DD, YYYY"),
+    title: "Apple Vision Pro",
+    date: dayjs("08-30-2024", "DD-MM-YYYY").format("MMMM DD, YYYY"),
     description:
-      "Introducing Apple Vision Pro, the new 15‑inch MacBook Air with M2, Mac Studio with M2 Max and M2 Ultra, Mac Pro with M2 Ultra, and previews of iOS 17, iPadOS 17, macOS Sonoma, and watchOS 10.",
+      "Presentamos Apple Vision Pro, la nueva MacBook Air de 15 pulgadas con M2, Mac Studio con M2 Max y M2 Ultra, Mac Pro con M2 Ultra y avances de iOS 17, iPadOS 17, macOS Sonoma y watchOS 10.",
   },
 ];
