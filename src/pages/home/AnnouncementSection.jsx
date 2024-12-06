@@ -15,9 +15,6 @@ export const AnnouncementSection = () => {
           <ProductCard key={index} product={product} />
         ))}
       </div>
-      <div className="rita-wrapper">
-        <RitaCard />
-      </div>
     </Container>
   );
 };
@@ -58,15 +55,6 @@ const Container = styled.div`
   @media (max-width: 786px) {
     .cards {
       font-size: 1.8em;
-    }
-
-    .rita-wrapper {
-      display: grid;
-      width: 100%;
-      height: auto;
-      place-items: center;
-      gap: 0.6em;
-      margin: 1.5em auto;
     }
   }
 `;
